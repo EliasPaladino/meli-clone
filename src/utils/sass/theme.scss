@@ -1,0 +1,41 @@
+// Colors
+$aqua: #57bb97;
+$blue-light: #defaf2;
+$blue: #408773;
+$blue-dark: #1f5b51;
+$green: #2fb670;
+$green-dark: #00a650;
+$gradient-pink: #a90f90;
+$gradient-blue: #0e1a52;
+$red: #f96666;
+
+$black: #000;
+$white: #fff;
+
+$background: #ebebeb;
+$background-light: #f5f5f5;
+
+$gray-dark: #333;
+$gray: #787878;
+$gray-light: #a2a2a2;
+$gray-ultra-light: #efefef;
+
+$select-navbar: #f5f5f5;
+
+$table-light: #f5f5f5;
+$table-dark: #ededed;
+
+// Media query
+$tablet: 768px;
+$laptop: 1024px;
+$desktop: 1366px;
+
+$max-width: 1200px;
+
+// Flex
+@mixin flex($direction, $justify, $align) {
+  display: flex;
+  flex-direction: $direction;
+  justify-content: $justify;
+  align-items: $align;
+}
